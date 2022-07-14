@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38C749528803D13008E7D8B /* Alcohol_JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C749428803D13008E7D8B /* Alcohol_JournalApp.swift */; };
+		C38C749728803D13008E7D8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C749628803D13008E7D8B /* ContentView.swift */; };
+		C38C749928803D17008E7D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38C749828803D17008E7D8B /* Assets.xcassets */; };
+		C38C749C28803D17008E7D8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38C749B28803D17008E7D8B /* Preview Assets.xcassets */; };
+		C38C749E28803D17008E7D8B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C749D28803D17008E7D8B /* Persistence.swift */; };
+		C38C74A128803D17008E7D8B /* Alcohol_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38C749F28803D17008E7D8B /* Alcohol_Journal.xcdatamodeld */; };
+		C38C74AB28803D18008E7D8B /* Alcohol_JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74AA28803D18008E7D8B /* Alcohol_JournalTests.swift */; };
+		C38C74B528803D18008E7D8B /* Alcohol_JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74B428803D18008E7D8B /* Alcohol_JournalUITests.swift */; };
+		C38C74B728803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74B628803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift */; };
+		C38C74C728803FFD008E7D8B /* Onboarding1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74C628803FFD008E7D8B /* Onboarding1View.swift */; };
+		C38C74CA2880515E008E7D8B /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74C92880515E008E7D8B /* Slider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38C74A728803D18008E7D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38C748928803D13008E7D8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38C749028803D13008E7D8B;
+			remoteInfo = "Alcohol Journal";
+		};
+		C38C74B128803D18008E7D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38C748928803D13008E7D8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38C749028803D13008E7D8B;
+			remoteInfo = "Alcohol Journal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C38C749128803D13008E7D8B /* Alcohol Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcohol Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38C749428803D13008E7D8B /* Alcohol_JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_JournalApp.swift; sourceTree = "<group>"; };
+		C38C749628803D13008E7D8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C38C749828803D17008E7D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38C749B28803D17008E7D8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C38C749D28803D17008E7D8B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C38C74A028803D17008E7D8B /* Alcohol_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alcohol_Journal.xcdatamodel; sourceTree = "<group>"; };
+		C38C74A628803D18008E7D8B /* Alcohol JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcohol JournalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38C74AA28803D18008E7D8B /* Alcohol_JournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_JournalTests.swift; sourceTree = "<group>"; };
+		C38C74B028803D18008E7D8B /* Alcohol JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcohol JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38C74B428803D18008E7D8B /* Alcohol_JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_JournalUITests.swift; sourceTree = "<group>"; };
+		C38C74B628803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C38C74C628803FFD008E7D8B /* Onboarding1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1View.swift; sourceTree = "<group>"; };
+		C38C74C92880515E008E7D8B /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38C748E28803D13008E7D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38C74A328803D18008E7D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38C74AD28803D18008E7D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38C748828803D13008E7D8B = {
+			isa = PBXGroup;
+			children = (
+				C38C749328803D13008E7D8B /* Alcohol Journal */,
+				C38C74A928803D18008E7D8B /* Alcohol JournalTests */,
+				C38C74B328803D18008E7D8B /* Alcohol JournalUITests */,
+				C38C749228803D13008E7D8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38C749228803D13008E7D8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38C749128803D13008E7D8B /* Alcohol Journal.app */,
+				C38C74A628803D18008E7D8B /* Alcohol JournalTests.xctest */,
+				C38C74B028803D18008E7D8B /* Alcohol JournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38C749328803D13008E7D8B /* Alcohol Journal */ = {
+			isa = PBXGroup;
+			children = (
+				C38C74C82880514B008E7D8B /* Components */,
+				C38C74C328803FA4008E7D8B /* Onboarding */,
+				C38C749428803D13008E7D8B /* Alcohol_JournalApp.swift */,
+				C38C749628803D13008E7D8B /* ContentView.swift */,
+				C38C749828803D17008E7D8B /* Assets.xcassets */,
+				C38C749D28803D17008E7D8B /* Persistence.swift */,
+				C38C749F28803D17008E7D8B /* Alcohol_Journal.xcdatamodeld */,
+				C38C749A28803D17008E7D8B /* Preview Content */,
+			);
+			path = "Alcohol Journal";
+			sourceTree = "<group>";
+		};
+		C38C749A28803D17008E7D8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C38C749B28803D17008E7D8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C38C74A928803D18008E7D8B /* Alcohol JournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38C74AA28803D18008E7D8B /* Alcohol_JournalTests.swift */,
+			);
+			path = "Alcohol JournalTests";
+			sourceTree = "<group>";
+		};
+		C38C74B328803D18008E7D8B /* Alcohol JournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C38C74B428803D18008E7D8B /* Alcohol_JournalUITests.swift */,
+				C38C74B628803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift */,
+			);
+			path = "Alcohol JournalUITests";
+			sourceTree = "<group>";
+		};
+		C38C74C328803FA4008E7D8B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C38C74C628803FFD008E7D8B /* Onboarding1View.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C38C74C82880514B008E7D8B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C38C74C92880515E008E7D8B /* Slider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38C749028803D13008E7D8B /* Alcohol Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38C74BA28803D18008E7D8B /* Build configuration list for PBXNativeTarget "Alcohol Journal" */;
+			buildPhases = (
+				C38C748D28803D13008E7D8B /* Sources */,
+				C38C748E28803D13008E7D8B /* Frameworks */,
+				C38C748F28803D13008E7D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alcohol Journal";
+			productName = "Alcohol Journal";
+			productReference = C38C749128803D13008E7D8B /* Alcohol Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38C74A528803D18008E7D8B /* Alcohol JournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38C74BD28803D18008E7D8B /* Build configuration list for PBXNativeTarget "Alcohol JournalTests" */;
+			buildPhases = (
+				C38C74A228803D18008E7D8B /* Sources */,
+				C38C74A328803D18008E7D8B /* Frameworks */,
+				C38C74A428803D18008E7D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38C74A828803D18008E7D8B /* PBXTargetDependency */,
+			);
+			name = "Alcohol JournalTests";
+			productName = "Alcohol JournalTests";
+			productReference = C38C74A628803D18008E7D8B /* Alcohol JournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C38C74AF28803D18008E7D8B /* Alcohol JournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38C74C028803D18008E7D8B /* Build configuration list for PBXNativeTarget "Alcohol JournalUITests" */;
+			buildPhases = (
+				C38C74AC28803D18008E7D8B /* Sources */,
+				C38C74AD28803D18008E7D8B /* Frameworks */,
+				C38C74AE28803D18008E7D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38C74B228803D18008E7D8B /* PBXTargetDependency */,
+			);
+			name = "Alcohol JournalUITests";
+			productName = "Alcohol JournalUITests";
+			productReference = C38C74B028803D18008E7D8B /* Alcohol JournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38C748928803D13008E7D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C38C749028803D13008E7D8B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C38C74A528803D18008E7D8B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C38C749028803D13008E7D8B;
+					};
+					C38C74AF28803D18008E7D8B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C38C749028803D13008E7D8B;
+					};
+				};
+			};
+			buildConfigurationList = C38C748C28803D13008E7D8B /* Build configuration list for PBXProject "Alcohol Journal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38C748828803D13008E7D8B;
+			productRefGroup = C38C749228803D13008E7D8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38C749028803D13008E7D8B /* Alcohol Journal */,
+				C38C74A528803D18008E7D8B /* Alcohol JournalTests */,
+				C38C74AF28803D18008E7D8B /* Alcohol JournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38C748F28803D13008E7D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38C749C28803D17008E7D8B /* Preview Assets.xcassets in Resources */,
+				C38C749928803D17008E7D8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38C74A428803D18008E7D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38C74AE28803D18008E7D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38C748D28803D13008E7D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38C74A128803D17008E7D8B /* Alcohol_Journal.xcdatamodeld in Sources */,
+				C38C749E28803D17008E7D8B /* Persistence.swift in Sources */,
+				C38C749728803D13008E7D8B /* ContentView.swift in Sources */,
+				C38C749528803D13008E7D8B /* Alcohol_JournalApp.swift in Sources */,
+				C38C74CA2880515E008E7D8B /* Slider.swift in Sources */,
+				C38C74C728803FFD008E7D8B /* Onboarding1View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38C74A228803D18008E7D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38C74AB28803D18008E7D8B /* Alcohol_JournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38C74AC28803D18008E7D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38C74B528803D18008E7D8B /* Alcohol_JournalUITests.swift in Sources */,
+				C38C74B728803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38C74A828803D18008E7D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38C749028803D13008E7D8B /* Alcohol Journal */;
+			targetProxy = C38C74A728803D18008E7D8B /* PBXContainerItemProxy */;
+		};
+		C38C74B228803D18008E7D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38C749028803D13008E7D8B /* Alcohol Journal */;
+			targetProxy = C38C74B128803D18008E7D8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C38C74B828803D18008E7D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C38C74B928803D18008E7D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38C74BB28803D18008E7D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alcohol Journal/Preview Content\"";
+				DEVELOPMENT_TEAM = F7XRTMXQP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.janovec.Alcohol-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38C74BC28803D18008E7D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alcohol Journal/Preview Content\"";
+				DEVELOPMENT_TEAM = F7XRTMXQP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.janovec.Alcohol-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C38C74BE28803D18008E7D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7XRTMXQP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.janovec.Alcohol-JournalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcohol Journal.app/Alcohol Journal";
+			};
+			name = Debug;
+		};
+		C38C74BF28803D18008E7D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7XRTMXQP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.janovec.Alcohol-JournalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcohol Journal.app/Alcohol Journal";
+			};
+			name = Release;
+		};
+		C38C74C128803D18008E7D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7XRTMXQP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.janovec.Alcohol-JournalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alcohol Journal";
+			};
+			name = Debug;
+		};
+		C38C74C228803D18008E7D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7XRTMXQP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.janovec.Alcohol-JournalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alcohol Journal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38C748C28803D13008E7D8B /* Build configuration list for PBXProject "Alcohol Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38C74B828803D18008E7D8B /* Debug */,
+				C38C74B928803D18008E7D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38C74BA28803D18008E7D8B /* Build configuration list for PBXNativeTarget "Alcohol Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38C74BB28803D18008E7D8B /* Debug */,
+				C38C74BC28803D18008E7D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38C74BD28803D18008E7D8B /* Build configuration list for PBXNativeTarget "Alcohol JournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38C74BE28803D18008E7D8B /* Debug */,
+				C38C74BF28803D18008E7D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38C74C028803D18008E7D8B /* Build configuration list for PBXNativeTarget "Alcohol JournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38C74C128803D18008E7D8B /* Debug */,
+				C38C74C228803D18008E7D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C38C749F28803D17008E7D8B /* Alcohol_Journal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C38C74A028803D17008E7D8B /* Alcohol_Journal.xcdatamodel */,
+			);
+			currentVersion = C38C74A028803D17008E7D8B /* Alcohol_Journal.xcdatamodel */;
+			path = Alcohol_Journal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C38C748928803D13008E7D8B /* Project object */;
+}
