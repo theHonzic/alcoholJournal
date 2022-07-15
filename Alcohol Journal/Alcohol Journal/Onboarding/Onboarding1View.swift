@@ -36,7 +36,7 @@ struct Onboarding1View: View {
             
             VStack{
                 Spacer()
-                Slider(text: "Swipe right.", primaryColor: "ColorSliderForeground", secondaryColor: "ColorSliderBackground")
+                Slider(text: "Swipe right.", primaryColor: Color("ColorSliderForeground"), secondaryColor: Color("ColorSliderBackground"))
             }
         }
     }

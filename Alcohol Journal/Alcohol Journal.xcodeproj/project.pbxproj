@@ -18,6 +18,7 @@
 		C38C74B728803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74B628803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift */; };
 		C38C74C728803FFD008E7D8B /* Onboarding1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74C628803FFD008E7D8B /* Onboarding1View.swift */; };
 		C38C74CA2880515E008E7D8B /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C74C92880515E008E7D8B /* Slider.swift */; };
+		C3FDA78C288124FC00FC773C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDA78B288124FC00FC773C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		C38C74B628803D18008E7D8B /* Alcohol_JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C38C74C628803FFD008E7D8B /* Onboarding1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1View.swift; sourceTree = "<group>"; };
 		C38C74C92880515E008E7D8B /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		C3FDA78B288124FC00FC773C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				C38C749D28803D17008E7D8B /* Persistence.swift */,
 				C38C749F28803D17008E7D8B /* Alcohol_Journal.xcdatamodeld */,
 				C38C749A28803D17008E7D8B /* Preview Content */,
+				C3FDA78B288124FC00FC773C /* Constants.swift */,
 			);
 			path = "Alcohol Journal";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				C38C749E28803D17008E7D8B /* Persistence.swift in Sources */,
 				C38C749728803D13008E7D8B /* ContentView.swift in Sources */,
 				C38C749528803D13008E7D8B /* Alcohol_JournalApp.swift in Sources */,
+				C3FDA78C288124FC00FC773C /* Constants.swift in Sources */,
 				C38C74CA2880515E008E7D8B /* Slider.swift in Sources */,
 				C38C74C728803FFD008E7D8B /* Onboarding1View.swift in Sources */,
 			);

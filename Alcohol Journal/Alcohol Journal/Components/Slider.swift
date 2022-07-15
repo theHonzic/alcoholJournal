@@ -11,31 +11,31 @@ struct Slider: View {
     @State private var buttonWidth: Double = UIScreen.main.bounds.width - 60
     @State private var buttonOffset: CGFloat = 0
     var text: String
-    var primaryColor: String
-    var secondaryColor: String
+    var primaryColor: Color
+    var secondaryColor: Color
     let hapticFeedback = UINotificationFeedbackGenerator()
     var body: some View {
         ZStack{
             Capsule()
-                .fill(Color(self.primaryColor))
+                .fill(self.primaryColor)
             Capsule()
-                .fill(Color(self.secondaryColor))
+                .fill(self.secondaryColor)
                 .padding(8)
             Text(self.text)
                 .font(.system(.title3, design: .rounded))
                 .fontWeight(.bold)
             HStack{
                 Capsule()
-                    .fill(Color(self.primaryColor))
+                    .fill(self.primaryColor)
                     .frame(width: buttonOffset + 80)
                 Spacer()
             }
             HStack{
                 ZStack{
                     Circle()
-                        .fill(Color(self.primaryColor))
+                        .fill(self.primaryColor)
                     Circle()
-                        .fill(Color(self.secondaryColor))
+                        .fill(self.secondaryColor)
                         .padding(8)
                     Image(systemName: "chevron.right.2")
                         .font(.system(size: 24, weight: .bold))
@@ -75,6 +75,6 @@ struct Slider: View {
 
 struct Slider_Previews: PreviewProvider {
     static var previews: some View {
-        Slider(text: "",primaryColor: "",secondaryColor: "")
+        Slider(text: "Slider preview",primaryColor: .red,secondaryColor: .blue)
     }
 }
