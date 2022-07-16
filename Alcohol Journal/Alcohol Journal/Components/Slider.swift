@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Slider: View {
     @State private var buttonWidth: Double = UIScreen.main.bounds.width - 60
+    @AppStorage("onboarding") var isOnboardingActive: Bool = true
+    let action: () -> Void
     @State private var buttonOffset: CGFloat = 0
     var text: String
     var primaryColor: Color
@@ -55,7 +57,7 @@ struct Slider: View {
                                 if buttonOffset > buttonWidth/2{
                                     hapticFeedback.notificationOccurred(.success)
                                     buttonOffset = buttonWidth - 80
-                                    //přejít na další onboarding
+                                    action()
                                 } else {
                                     buttonOffset = 0
                                     hapticFeedback.notificationOccurred(.warning)
@@ -70,11 +72,5 @@ struct Slider: View {
         .opacity(1)
         .offset(y: 0)
         .padding()
-    }
-}
-
-struct Slider_Previews: PreviewProvider {
-    static var previews: some View {
-        Slider(text: "Slider preview",primaryColor: .red,secondaryColor: .blue)
     }
 }

@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct Onboarding1View: View {
+    @AppStorage("onboarding") var isOnboardingActive: Bool = true
+    @AppStorage("onboardingItem") var onboardingItem: Int = 1
     @State private var buttonWidth: Double = UIScreen.main.bounds.width - 60
     @State private var buttonOffset: CGFloat = 0
-    let hapticFeedback = UINotificationFeedbackGenerator()
     var body: some View {
         ZStack{
             VStack{
@@ -26,6 +27,7 @@ struct Onboarding1View: View {
                 Text("Hey, welcome to your Alcohol Journal. Let's get started, shall we? 🤗")
                     .font(.title2)
                     .multilineTextAlignment(.center)
+                    .padding(.horizontal, 5.0)
                 Spacer()
                 Spacer()
                 Spacer()
@@ -36,7 +38,10 @@ struct Onboarding1View: View {
             
             VStack{
                 Spacer()
-                Slider(text: "Swipe right.", primaryColor: Color("ColorSliderForeground"), secondaryColor: Color("ColorSliderBackground"))
+                Slider(action: {
+                    isOnboardingActive = true
+                    onboardingItem = 2
+                }, text: "Swipe right.", primaryColor: Color("ColorSliderForeground"), secondaryColor: Color("ColorSliderBackground"))
             }
         }
     }
