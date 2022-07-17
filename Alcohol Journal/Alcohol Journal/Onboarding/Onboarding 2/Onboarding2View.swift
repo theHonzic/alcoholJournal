@@ -10,9 +10,18 @@ import SwiftUI
 struct Onboarding2View: View {
     @AppStorage("onboarding") var isOnboardingActive: Bool = true
     @AppStorage("onboardingItem") var onboardingItem: Int = 2
+    @AppStorage("usersName") var usersName: String = "default"
+    @AppStorage("usersBirthday") var usersBirthday: Date = Date()
     @State var name: String = ""
-    //změnit na datum narození
-    @State var age: Int = 0
+    @State var birthday: Date = Date()
+    
+    @StateObject private var viewModel = ViewModel()
+    
+    init(){
+        _name = State(initialValue: usersName)
+        _birthday = State(initialValue: usersBirthday)
+    }
+    
     var body: some View {
         ZStack{
             VStack{
@@ -34,7 +43,7 @@ struct Onboarding2View: View {
                 Spacer()
 
                 CapsuleTextField(textValue: $name, placeholder: "Name", color: .gray.opacity(0.9))
-                CapsuleTextField(textValue: $name, placeholder: "Name", color: .gray.opacity(0.9))
+                CapsuleDatePicker(dateValue: $birthday, placeholder: "Your birthday", color: .gray.opacity(0.9))
                 Spacer()
                 Spacer()
                 Spacer()
@@ -43,13 +52,27 @@ struct Onboarding2View: View {
             VStack{
                 Spacer()
                 CapsuleButton(color: Color("ColorSliderBackground"), action: {
-                    isOnboardingActive = true
-                    onboardingItem = 3
-                }, text: "Next.")
+                    moveToNextOnboardingScreen()
+                    saveName()
+                    saveBirthday()
+                }, text: "Let's get started.")
             }
             
             
         }
+    }
+    
+    func moveToNextOnboardingScreen(){
+        isOnboardingActive = false
+        onboardingItem = 1
+    }
+    
+    func saveName(){
+        usersName = name
+    }
+    
+    func saveBirthday(){
+        usersBirthday = birthday
     }
 }
 

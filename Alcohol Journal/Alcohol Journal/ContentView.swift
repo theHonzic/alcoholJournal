@@ -18,8 +18,6 @@ struct ContentView: View {
                 Onboarding1View()
             case 2:
                 Onboarding2View()
-            case 3:
-                Onboarding3View()
             default:
                 onDone()
             }

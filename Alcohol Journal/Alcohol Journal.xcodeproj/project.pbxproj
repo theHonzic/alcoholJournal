@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C308DB32288199F100581BF6 /* onDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308DB31288199F100581BF6 /* onDone.swift */; };
-		C308DB3428819D9C00581BF6 /* Onboarding3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308DB3328819D9C00581BF6 /* Onboarding3View.swift */; };
 		C336BBD9288153B000C0EA93 /* CapsuleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336BBD8288153B000C0EA93 /* CapsuleTextField.swift */; };
 		C336BBDB2881647700C0EA93 /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336BBDA2881647700C0EA93 /* CapsuleButton.swift */; };
+		C33BB4032882E7E80062ACB5 /* Onboarding1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33BB4022882E7E80062ACB5 /* Onboarding1ViewModel.swift */; };
+		C3524D10288405EB000C36D5 /* CapsuleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3524D0F288405EB000C36D5 /* CapsuleDatePicker.swift */; };
+		C3524D13288417D1000C36D5 /* DateAppStorageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3524D12288417D1000C36D5 /* DateAppStorageExtension.swift */; };
+		C3524D1628841BB3000C36D5 /* Onboarding 2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3524D1528841BB3000C36D5 /* Onboarding 2ViewModel.swift */; };
 		C38C749528803D13008E7D8B /* Alcohol_JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C749428803D13008E7D8B /* Alcohol_JournalApp.swift */; };
 		C38C749728803D13008E7D8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C749628803D13008E7D8B /* ContentView.swift */; };
 		C38C749928803D17008E7D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38C749828803D17008E7D8B /* Assets.xcassets */; };
@@ -45,9 +48,12 @@
 
 /* Begin PBXFileReference section */
 		C308DB31288199F100581BF6 /* onDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onDone.swift; sourceTree = "<group>"; };
-		C308DB3328819D9C00581BF6 /* Onboarding3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3View.swift; sourceTree = "<group>"; };
 		C336BBD8288153B000C0EA93 /* CapsuleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleTextField.swift; sourceTree = "<group>"; };
 		C336BBDA2881647700C0EA93 /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		C33BB4022882E7E80062ACB5 /* Onboarding1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1ViewModel.swift; sourceTree = "<group>"; };
+		C3524D0F288405EB000C36D5 /* CapsuleDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleDatePicker.swift; sourceTree = "<group>"; };
+		C3524D12288417D1000C36D5 /* DateAppStorageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAppStorageExtension.swift; sourceTree = "<group>"; };
+		C3524D1528841BB3000C36D5 /* Onboarding 2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding 2ViewModel.swift"; sourceTree = "<group>"; };
 		C38C749128803D13008E7D8B /* Alcohol Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcohol Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38C749428803D13008E7D8B /* Alcohol_JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_JournalApp.swift; sourceTree = "<group>"; };
 		C38C749628803D13008E7D8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C33BB4012882E7CA0062ACB5 /* Onboarding 1 */ = {
+			isa = PBXGroup;
+			children = (
+				C38C74C628803FFD008E7D8B /* Onboarding1View.swift */,
+				C33BB4022882E7E80062ACB5 /* Onboarding1ViewModel.swift */,
+			);
+			path = "Onboarding 1";
+			sourceTree = "<group>";
+		};
+		C3524D11288417BE000C36D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3524D12288417D1000C36D5 /* DateAppStorageExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C3524D1428841B9B000C36D5 /* Onboarding 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C39BBFAC288143B2002CC8B5 /* Onboarding2View.swift */,
+				C3524D1528841BB3000C36D5 /* Onboarding 2ViewModel.swift */,
+			);
+			path = "Onboarding 2";
+			sourceTree = "<group>";
+		};
 		C38C748828803D13008E7D8B = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +146,7 @@
 		C38C749328803D13008E7D8B /* Alcohol Journal */ = {
 			isa = PBXGroup;
 			children = (
+				C3524D11288417BE000C36D5 /* Utils */,
 				C38C74C82880514B008E7D8B /* Components */,
 				C38C74C328803FA4008E7D8B /* Onboarding */,
 				C38C749428803D13008E7D8B /* Alcohol_JournalApp.swift */,
@@ -156,9 +189,8 @@
 		C38C74C328803FA4008E7D8B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				C38C74C628803FFD008E7D8B /* Onboarding1View.swift */,
-				C39BBFAC288143B2002CC8B5 /* Onboarding2View.swift */,
-				C308DB3328819D9C00581BF6 /* Onboarding3View.swift */,
+				C33BB4012882E7CA0062ACB5 /* Onboarding 1 */,
+				C3524D1428841B9B000C36D5 /* Onboarding 2 */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -169,6 +201,7 @@
 				C38C74C92880515E008E7D8B /* Slider.swift */,
 				C336BBD8288153B000C0EA93 /* CapsuleTextField.swift */,
 				C336BBDA2881647700C0EA93 /* CapsuleButton.swift */,
+				C3524D0F288405EB000C36D5 /* CapsuleDatePicker.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -304,11 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39BBFAD288143B2002CC8B5 /* Onboarding2View.swift in Sources */,
+				C33BB4032882E7E80062ACB5 /* Onboarding1ViewModel.swift in Sources */,
 				C336BBD9288153B000C0EA93 /* CapsuleTextField.swift in Sources */,
 				C38C74A128803D17008E7D8B /* Alcohol_Journal.xcdatamodeld in Sources */,
 				C308DB32288199F100581BF6 /* onDone.swift in Sources */,
+				C3524D13288417D1000C36D5 /* DateAppStorageExtension.swift in Sources */,
 				C336BBDB2881647700C0EA93 /* CapsuleButton.swift in Sources */,
-				C308DB3428819D9C00581BF6 /* Onboarding3View.swift in Sources */,
+				C3524D1628841BB3000C36D5 /* Onboarding 2ViewModel.swift in Sources */,
+				C3524D10288405EB000C36D5 /* CapsuleDatePicker.swift in Sources */,
 				C38C749E28803D17008E7D8B /* Persistence.swift in Sources */,
 				C38C749728803D13008E7D8B /* ContentView.swift in Sources */,
 				C38C749528803D13008E7D8B /* Alcohol_JournalApp.swift in Sources */,

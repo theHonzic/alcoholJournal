@@ -10,8 +10,8 @@ import SwiftUI
 struct Onboarding1View: View {
     @AppStorage("onboarding") var isOnboardingActive: Bool = true
     @AppStorage("onboardingItem") var onboardingItem: Int = 1
-    @State private var buttonWidth: Double = UIScreen.main.bounds.width - 60
-    @State private var buttonOffset: CGFloat = 0
+    @StateObject private var viewModel = ViewModel()
+    
     var body: some View {
         ZStack{
             VStack{
@@ -39,13 +39,15 @@ struct Onboarding1View: View {
             VStack{
                 Spacer()
                 Slider(action: {
-                    isOnboardingActive = true
-                    onboardingItem = 2
+                    moveToNextOnboardingScreen()
                 }, text: "Swipe right.", primaryColor: Color("ColorSliderForeground"), secondaryColor: Color("ColorSliderBackground"))
             }
         }
     }
-    
+    func moveToNextOnboardingScreen(){
+        isOnboardingActive = true
+        onboardingItem = 2
+    }
     struct Onboarding1View_Previews: PreviewProvider {
         static var previews: some View {
             Onboarding1View()
