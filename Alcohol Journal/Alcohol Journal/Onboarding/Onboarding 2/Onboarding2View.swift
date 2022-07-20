@@ -63,8 +63,8 @@ struct Onboarding2View: View {
     }
     
     func moveToNextOnboardingScreen(){
-        isOnboardingActive = false
-        onboardingItem = 1
+        isOnboardingActive = true
+        onboardingItem = 3
     }
     
     func saveName(){

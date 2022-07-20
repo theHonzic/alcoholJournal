@@ -21,7 +21,8 @@ struct CapsuleButton: View {
             Button(action: {
                 action()
             }){
-                Text("").frame(width: self.capsuleWidth, height: 80, alignment: .center)
+                Text("")
+                    .frame(width: self.capsuleWidth, height: 80, alignment: .center)
             }
             
             Text(self.text)

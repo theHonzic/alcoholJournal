@@ -1,19 +1,23 @@
 //
-//  onDone.swift
+//  SessionActive.swift
 //  Alcohol Journal
 //
-//  Created by Jan Janovec on 15.07.2022.
+//  Created by Jan Janovec on 20.07.2022.
 //
 
 import SwiftUI
 
-struct onDone: View {
+struct SessionActive: View {
     @AppStorage("onboarding") var isOnboardingActive: Bool = false
     @AppStorage("onboardingItem") var onboardingItem: Int = 1
+    @AppStorage("sessionActive") var sessionActive: Bool = true
     var body: some View {
         
         VStack{
-            Text("On boarding done!")
+            Text("On boarding done!, active")
+            CapsuleButton(color: .gray, action: {
+                sessionActive = false
+            }, text: "stop drinking")
             CapsuleButton(color: .gray, action: {
                 isOnboardingActive = true
                 onboardingItem = 1
@@ -23,8 +27,8 @@ struct onDone: View {
     }
 }
 
-struct onDone_Previews: PreviewProvider {
+struct SessionActive_Previews: PreviewProvider {
     static var previews: some View {
-        onDone()
+        SessionActive()
     }
 }

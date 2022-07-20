@@ -11,6 +11,7 @@ import CoreData
 struct ContentView: View {
     @AppStorage("onboarding") var isOnboardingActive: Bool = true
     @AppStorage("onboardingItem") var onboardingItem: Int = 1
+    @AppStorage("sessionActive") var sessionActive: Bool = false
     var body: some View {
         if isOnboardingActive {
             switch onboardingItem{
@@ -18,11 +19,18 @@ struct ContentView: View {
                 Onboarding1View()
             case 2:
                 Onboarding2View()
+            case 3:
+                Onboarding3View()
             default:
-                onDone()
+                SessionActive()
             }
         } else {
-            onDone()
+            if sessionActive {
+                SessionActive()
+            } else {
+                SessionNotActive()
+            }
+
         }
     }
 }
